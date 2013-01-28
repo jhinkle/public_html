@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+}
+#wrap {
+    height: auto !important;
+    margin: 0 auto -60px;
+    min-height: 100%;
+}
+#push, #footer {
+    height: 60px;
+}
+#footer {
+    background-color: #F5F5F5;
+}
+#footer {
+    margin-left: -20px;
+    /*margin-right: -20px; causes horizontal scrollbar to appear */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container .credit {
+    margin: 20px 0;
+}
+
+.center {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+a.default:link{
+    color:inherit;
+    text-decoration: none;
+}
+a.default:visited{
+    color:inherit;
+    text-decoration: none;
+}
+a.default:hover{
+    color:inherit;
+    text-decoration: underline;
+}
+a.nodecoration:hover{
+    color:inherit;
+    text-decoration: none;
+}
