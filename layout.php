@@ -14,23 +14,6 @@ function html_header($title) {
             <![endif]-->
             <link href="css/stickyfooter.css"          rel="stylesheet" media="screen">
             <link href="img/favicon.ico"               rel="icon"       type="image/png">
-            <script type="text/javascript">
-
-             // Add a script element as a child of the body
-             function downloadJSAtOnload() {
-             var element = document.createElement("script");
-             element.src = "http://code.jquery.com/jquery.min.js";
-             document.body.appendChild(element);
-             }
-
-             // Check for browser support of event handling capability
-             if (window.addEventListener)
-             window.addEventListener("load", downloadJSAtOnload, false);
-             else if (window.attachEvent)
-             window.attachEvent("onload", downloadJSAtOnload);
-             else window.onload = downloadJSAtOnload;
-
-            </script>
         </head>
         <body>
             <?php
@@ -80,6 +63,7 @@ function navigation() {
                 </div>
             </div>
             <!-- Javascript -->
+            <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
             <script type="text/javascript">
                 var _gaq = _gaq || [];
